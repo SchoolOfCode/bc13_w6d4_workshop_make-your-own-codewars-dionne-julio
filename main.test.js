@@ -14,18 +14,33 @@ test(`This test the plus operator`, () =>{
   const expected = 4
 
   expect(actual).toEqual(expected);
-})
+});
 
 test(`This test the minus operator`, () =>{
   const actual = calculator(6, '-', 2)
   const expected = 4
 
   expect(actual).toEqual(expected);
-})
+});
 
 test(`This test the multiply operator`, () =>{
   const actual = calculator(6, '*', 2)
   const expected = 12
 
   expect(actual).toEqual(expected);
-})
+});
+
+test(`This test the divide operator`, () =>{
+  const actual = calculator(6, '/', 3)
+  const expected = 2
+
+  expect(actual).toEqual(expected);
+});
+
+test(`This test the remainder of a number`, () =>{
+  const actual = calculator(6, '%', 3)
+  const expected = 0
+
+  expect(actual).toEqual(expected);
+});
+
