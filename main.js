@@ -1,5 +1,6 @@
-/* 
-👉 Write your kata here!
-*/
+// CALCULATOR - Creat a function that takes two numbers and a mathematical operator and returns the correct value
 
-//👉 Write the function your CodeWarriors will start with below here:
+export function calculator(num1, operator, num2){
+// your code here
+}
+
